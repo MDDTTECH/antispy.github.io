@@ -1,39 +1,223 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       line-height: 1.6;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+    
+    .container {
       max-width: 800px;
       margin: 0 auto;
-      padding: 20px;
-      color: #333;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
     }
-    h1 {
+    
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+    }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .header h1 {
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+    
+    .header p {
+      opacity: 0.9;
+      font-size: 16px;
+    }
+    
+    .content {
+      padding: 40px 30px;
+    }
+    
+    h2 {
       color: #2c3e50;
+      font-size: 24px;
+      margin: 30px 0 15px 0;
+      padding-bottom: 8px;
       border-bottom: 2px solid #3498db;
-      padding-bottom: 10px;
     }
+    
+    h3 {
+      color: #34495e;
+      font-size: 18px;
+      margin: 25px 0 10px 0;
+    }
+    
     p {
       margin-bottom: 15px;
+      color: #555;
     }
-    .contact {
+    
+    ul {
+      margin: 15px 0;
+      padding-left: 20px;
+    }
+    
+    li {
+      margin-bottom: 8px;
+      color: #555;
+    }
+    
+    .highlight {
       background-color: #f8f9fa;
-      padding: 15px;
-      border-radius: 5px;
+      padding: 20px;
+      border-radius: 6px;
       border-left: 4px solid #3498db;
+      margin: 20px 0;
+    }
+    
+    .contact {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    
+    .contact h3 {
+      color: white;
+      margin-bottom: 15px;
+    }
+    
+    .contact p {
+      color: rgba(255,255,255,0.9);
+      font-size: 18px;
+    }
+    
+    .bold {
+      font-weight: 600;
+    }
+    
+    .section {
+      margin-bottom: 30px;
     }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>Last updated:</strong> 2025-08-06</p>
-  <p>This app does not collect, store, or share any personal information.</p>
-  <div class="contact">
-    <p><strong>If you have questions, contact:</strong> your.email@example.com</p>
+  <div class="container">
+    <div class="header">
+      <div class="logo">Antispy</div>
+      <h1>Privacy Policy</h1>
+      <p><strong>Effective Date:</strong> July 16, 2025</p>
+    </div>
+    
+    <div class="content">
+      <div class="section">
+        <p>This Privacy Policy applies to our mobile application (hereafter referred to as the "Application"), developed by our company (hereafter referred to as the "Service Provider") and offered as a freemium utility with optional subscription features. The Application is provided "AS IS".</p>
+      </div>
+
+      <div class="section">
+        <h2>1. Information Collection and Use</h2>
+        <p>The Application may collect limited information to support core functionality, subscription processing, and usage analytics. This includes:</p>
+        <ul>
+          <li>Device type, OS version, and language settings</li>
+          <li>Installation source (e.g., ad campaign ID, referrer)</li>
+          <li>Subscription status and transaction events</li>
+          <li>Anonymous usage metrics (e.g., which screens are visited)</li>
+        </ul>
+        <p>No sensitive personal data (such as names, email addresses, or contact lists) is collected or stored by the Service Provider.</p>
+      </div>
+
+      <div class="section">
+        <h2>2. Third-Party Services</h2>
+        <p>To support subscriptions and app performance, the Application integrates the following third-party SDKs:</p>
+        
+        <h3>Adapty</h3>
+        <p>Used for managing in-app subscriptions, analyzing revenue trends, and delivering paywall experiences.</p>
+        <p><a href="https://adapty.io/privacy-policy/" target="_blank">Adapty Privacy Policy</a></p>
+        
+        <p>These third parties may collect anonymized device information and usage data in accordance with their respective privacy policies. The Service Provider does not receive or store any payment information directly.</p>
+      </div>
+
+      <div class="section">
+        <h2>3. In-App Purchases</h2>
+        <p>Our app offers optional in-app subscriptions processed by Apple Inc. All payment transactions, billing history, and refunds are handled directly by Apple, not the Service Provider.</p>
+        <p>Refund requests should be submitted via your Apple account. The Service Provider does not store or access your billing credentials or Apple ID.</p>
+      </div>
+
+      <div class="section">
+        <h2>4. Local-Only Features</h2>
+        <p>The following features operate entirely on your device and do not transmit personal data to the Service Provider or any server:</p>
+        <ul>
+          <li>Local network scanning for security threats</li>
+          <li>Magnetometer-based magnetic field level detection</li>
+          <li>Camera-based infrared radiation detection</li>
+          <li>On-device security analysis and threat detection</li>
+          <li>On-device assistant (preloaded responses powered by local AI)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>5. Data Sharing</h2>
+        <p>We do not sell or share your personal data. However, anonymized data may be shared with third-party service providers listed above solely to improve app performance and manage subscriptions.</p>
+        <p>We may disclose limited data if required by law or legal process.</p>
+      </div>
+
+      <div class="section">
+        <h2>6. Opt-Out Rights</h2>
+        <p>You can stop all data collection by uninstalling the Application. You can also limit tracking by:</p>
+        <ul>
+          <li>Opting out of ad tracking in your iOS settings</li>
+          <li>Disabling personalized ads via your Apple ID</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>7. Data Retention</h2>
+        <p>No personal data is stored by the Service Provider. Anonymized analytics and subscription metadata may be retained by third-party services according to their own retention policies.</p>
+      </div>
+
+      <div class="section">
+        <h2>8. Children's Privacy</h2>
+        <p>The Application is not intended for children under 13. The Service Provider does not knowingly collect data from children. If you are a parent or guardian and believe your child has submitted data, please contact us immediately.</p>
+      </div>
+
+      <div class="section">
+        <h2>9. Security</h2>
+        <p>We implement reasonable safeguards (both technical and procedural) to protect any locally processed or third-party managed data. All payment transactions are handled through Apple's secure payment system.</p>
+      </div>
+
+      <div class="section">
+        <h2>10. Changes to This Policy</h2>
+        <p>This Privacy Policy may be updated periodically. Changes will be posted on this page. Continued use of the Application constitutes your acceptance of the updated terms.</p>
+      </div>
+
+      <div class="section">
+        <h2>11. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy or your data privacy while using the Application, please contact us.</p>
+      </div>
+    </div>
+    
+    <div class="contact">
+      <h3>📧 Contact Information</h3>
+      <p>your.email@example.com</p>
+    </div>
   </div>
 </body>
 </html>
